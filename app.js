@@ -73,11 +73,20 @@ const foods2 = foods.toSpliced(2,0,"tofu")
 tofu inbetween pizza and cheeseburger at the second index 
 */
 
-
-
 console.log('Exercise 5 result:', foods2);
 
 
+/*
+Exercise 6: Replace elements
+
+1) Replace 'pizza' in the `foods` array with 'sushi' and 'cupcake'.
+
+Complete Exercise 6 in the space below:
+*/
+
+
+
+console.log('Exercise 6 result:', foods);
 
 
 
