@@ -84,8 +84,10 @@ Exercise 6: Replace elements
 Complete Exercise 6 in the space below:
 */
 
+//* current array -> taco, pizza, tofu, cheeseburger. NEEDS 2 BE -> taco, sushi, cupcake, tofu cheeseburger
 
-
+console.log(foods[1]);
+foods.splice(1,1, 'sushi', 'cupcake');
 console.log('Exercise 6 result:', foods);
 
 
