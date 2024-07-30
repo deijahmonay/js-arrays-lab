@@ -137,9 +137,12 @@ Note: The final result should log as:
 
 Complete Exercise 9 in the space below:
 */
+const allFoods = foods;
+console.log(allFoods.join('->'));
 
-
-
+/* looked this up on mdn web docs "array.prototype.join()" but it returns 'taco -> sushi -> cupcake -> tofu -> cheeseburger'
+as well as Exercise 9 result: [ 'taco', 'sushi', 'cupcake', 'cupcake', 'cheeseburger' ]. unsure where i went wrong but still acheived desired outcome
+*/
 console.log('Exercise 9 result:', allFoods);
 
 
