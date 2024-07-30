@@ -101,7 +101,10 @@ Exercise 7: Using the `slice()` method
 Complete Exercise 7 in the space below:
 */
 
+console.log(foods[1]);
+foods.splice(1,1, 'sushi', 'cupcake'); //* copied from exercise 6, was i supposed to use another method? i looked it up and this is what mdn docs recommened i use for number 6
 
+const yummy = foods.slice(1,3)
 
 console.log('Exercise 7 result:', yummy);
 
