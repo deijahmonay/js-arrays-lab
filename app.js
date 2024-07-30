@@ -177,7 +177,13 @@ Complete Exercise 11 in the space below:
 
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
+let odds = [5, 23, 15, 21, 9, 45, 66, 7, 81]
 
+nums.forEach((num, oddNums) => {
+   if (num === odds) console.log(odds)
+      console.log(odds)
+})
+//* not sure if im running too much code but my reslut is showing odd numbers only
 
 console.log('Exercise 11 result:', odds);
 
