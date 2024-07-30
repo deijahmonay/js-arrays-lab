@@ -52,12 +52,30 @@ let favFood = ['pizza']
 
 console.log('Exercise 4 result:', favFood);
 
-splice(start)
-splice(start, deleteCount)
-splice(start, deleteCount, item0)
-splice(start, deleteCount, item0, item1)
-splice(start, deleteCount, item0, item1, /* …, */ itemN)
+// splice(start)
+// splice(start, deleteCount)
+// splice(start, deleteCount, item0)
+// splice(start, deleteCount, item0, item1)
+// splice(start, deleteCount, item0, item1, /* …, */ itemN)
+//* copied code before I read what it was , starting number 5 below this line
 
+/*
+Exercise 5: Insert an element between two others
+
+1) Insert the string 'tofu' between 'pizza' and 'cheeseburger' in the array.
+
+Complete Exercise 5 in the space below:
+*/
+//taco, pizza, cheeseburger -- 0,1,2 =====> taco, pizza, tofu, cheeseburger,
+
+const foods2 = foods.toSpliced(2,0,"tofu") 
+/* I looked this method up online using mdn web docs article called "Array.prototype.toSpliced()", it returned the correct format placing 
+tofu inbetween pizza and cheeseburger at the second index 
+*/
+
+
+
+console.log('Exercise 5 result:', foods2);
 
 
 
