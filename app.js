@@ -288,12 +288,15 @@ Hint: Be sure to declare and initialize the total variable before the iterations
 
 Complete Exercise 15 in the space below:
 */
-
+let sum = 0
+numArrays.forEach((numArray) => {
+   total = sum + numArray
+})
 
 
 console.log('Exercise 15 result:\n', total);
 
-
+//* unsure how to solve after reviewing notes and mdn website
 
 
 
