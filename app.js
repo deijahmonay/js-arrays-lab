@@ -174,8 +174,8 @@ Hint: Initialize the `odds` variable to an empty array before the iteration.
 
 Complete Exercise 11 in the space below:
 */
-
-const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+//? ive changed 178 to let from const to allow code  for exercise 14  to run
+let nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 let odds = [5, 23, 15, 21, 9, 45, 66, 7, 81]
 
@@ -209,29 +209,29 @@ Complete Exercise 12 in the space below:
 // for (let i = 0; i < arr.length; i++) {
 //    console.log(array[i]);
 // }
-const fizz = [15, 21, 72, 9, 45, 66, 81, 90]; // numbers that can be divided by 3
-const buzz = [100, 5, 15, 45, 90]; // numbers that can be divided by 5
-const fizzbuzz = [nums]; // numbers that can be divided by 3 & 5
-let num = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90]
-; {
+// const fizz = [15, 21, 72, 9, 45, 66, 81, 90]; // numbers that can be divided by 3
+// const buzz = [100, 5, 15, 45, 90]; // numbers that can be divided by 5
+// const fizzbuzz = [nums]; // numbers that can be divided by 3 & 5
+// let num = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90]
+// ; {
   
 
-   for (let idx = 0; idx < nums.length; idx++){
-      const num = nums[idx];
-   } if (num % 3 === 0) {
-      console.log(fizz)
-   } else if (num % 5 === 0) {
-      console.log(buzz)
-} else (num % 3 === 0 && num % 5 === 0) 
-      console.log(fizzbuzz)
-   }
+//    for (let idx = 0; idx < nums.length; idx++){
+//       const num = nums[idx];
+//    } if (num % 3 === 0) {
+//       console.log(fizz)
+//    } else if (num % 5 === 0) {
+//       console.log(buzz)
+// } else (num % 3 === 0 && num % 5 === 0) 
+//       console.log(fizzbuzz)
+//    }
 
 
-console.log('Exercise 12 Results:');
-console.log('  fizz:', fizz);
-console.log('  buzz:', buzz);
-console.log('  fizzbuzz:', fizzbuzz);
-
+// console.log('Exercise 12 Results:');
+// console.log('  fizz:', fizz);
+// console.log('  buzz:', buzz);
+// console.log('  fizzbuzz:', fizzbuzz);
+//! had to comment this out to solve 14
 // ! I was working on this one and off and asked for help, im slightly confused but i did get the correct return message.
 
 
@@ -269,9 +269,10 @@ Exercise 14: Accessing within nested arrays
 Complete Exercise 14 in the space below:
 */
 
+const num = numArrays[2][1]; 
 
 
-console.log('Exercise 14 result:', num);
+ console.log('Exercise 14 result:', num);
 
 
 
