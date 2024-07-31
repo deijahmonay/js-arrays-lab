@@ -188,11 +188,90 @@ nums.forEach((num, oddNums) => {
 console.log('Exercise 11 result:', odds);
 
 
+/*
+Exercise 12: FizzBuzz with arrays
+
+1) Choose a method to iterate through the `nums` array. 
+
+2. As you loop, sort the numbers into new arrays based on the following rules:
+
+   - Push any number evenly divisible by 3 to an array called `fizz`.
+   - Push any number evenly divisible by 5 to an array called `buzz`.
+   - Push any number that is evenly divisible by 3 and 5 to an array called
+     `fizzbuzz`.
+
+   Note: A single number may meet more than one of the above rules. If it does,
+         it should be placed in multiple arrays. For example, the number `15`
+         will appear in the `fizz`, `buzz`, and `fizzbuzz` arrays.
+
+Complete Exercise 12 in the space below:
+*/
+// for (let i = 0; i < arr.length; i++) {
+//    console.log(array[i]);
+// }
+const fizz = [15, 21, 72, 9, 45, 66, 81, 90]; // numbers that can be divided by 3
+const buzz = [100, 5, 15, 45, 90]; // numbers that can be divided by 5
+const fizzbuzz = [nums]; // numbers that can be divided by 3 & 5
+let num = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90]
+; {
+  
+
+   for (let idx = 0; idx < nums.length; idx++){
+      const num = nums[idx];
+   } if (num % 3 === 0) {
+      console.log(fizz)
+   } else if (num % 5 === 0) {
+      console.log(buzz)
+} else (num % 3 === 0 && num % 5 === 0) 
+      console.log(fizzbuzz)
+   }
+
+
+console.log('Exercise 12 Results:');
+console.log('  fizz:', fizz);
+console.log('  buzz:', buzz);
+console.log('  fizzbuzz:', fizzbuzz);
+
+// ! I was working on this one and off and asked for help, im slightly confused but i did get the correct return message.
+
+
+/*
+Exercise 13: Retrieve the Last Array
+
+1) Assign the last nested array in the `numArrays` below to a variable named
+   `numList`. As you do this, also fulfill these goals:
+
+   - Assume you don't know how many nested arrays `numArrays` contains.
+   - Do not alter the original `numArrays` array.
+
+Complete Exercise 13 in the space below:
+*/
+
+const numArrays = [
+	[100, 5, 23],
+	[15, 21, 72, 9],
+	[45, 66],
+	[7, 81, 90]
+];
+const numList = numArrays[numArrays.length -1]
+console.log('Exercise 13 result:', numList);
+//* Got this on my first try while reviewing lecture notes on first movie examples
+
+
+/*
+Exercise 14: Accessing within nested arrays
+
+1) Retrieve the number `66` from the `numArrays` array. As part of this process
+   do not alter the original `numArrays` array.
+
+2) Assign it to a variable called `num`.
+
+Complete Exercise 14 in the space below:
+*/
 
 
 
-
-
+console.log('Exercise 14 result:', num);
 
 
 
